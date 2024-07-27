@@ -5,7 +5,7 @@ use axum::{
 };
 use serde::{Deserialize, Serialize};
 use utoipa::{OpenApi, ToSchema};
-use utoipa_swagger_ui::SwaggerUi;
+use utoipa_swagger_ui::{SwaggerUi};
 
 #[tokio::main]
 async fn main() {
